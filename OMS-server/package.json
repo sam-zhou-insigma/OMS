@@ -1,0 +1,46 @@
+{
+  "name": "OMS-server-node",
+  "version": "0.3.2",
+  "description": "RESTful Micro-ORM for CRUD and more, using Node.js, Express, and PostgreSQL.",
+  "copyright": "(c) 2016 Olivier Giulieri",
+  "license": "MIT",
+  "homepage": "https://github.com/evoluteur/OMS-server-node",
+  "author": "Olivier Giulieri (https://evoluteur.github.io/)",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/evoluteur/OMS-server-node.git"
+  },
+  "bugs": "https://github.com/evoluteur/OMS-server-node/issues",
+  "scripts": {
+    "start": "supervisor ./bin/www"
+  },
+  "keywords": [
+    "REST",
+    "model-driven",
+    "MDA",
+    "mda",
+    "metadata",
+    "server",
+    "API",
+    "Express",
+    "Postgres",
+    "Node",
+    "NodeJS",
+    "low-code",
+    "javascript",
+    "ORM",
+    "CRUD"
+  ],
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "debug": "~2.5.1",
+    "formidable": "~1.0.17",
+    "shortid": "~2.2.6",
+    "express": "~4.14.0",
+    "express-csv": "~0.6.0",
+    "pg": "^6.1.2",
+    "pg-connection-string": "~0.1.3",
+    "supervisor": "~0.12.0",
+    "underscore": "~1.8.3"
+  }
+}

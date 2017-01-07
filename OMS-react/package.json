@@ -1,0 +1,61 @@
+{
+  "name": "oms-ui-react",
+  "version": "0.1.0",
+  "description": "Model-driven Web UI for CRUD and more",
+  "main": "index.js",
+  "copyright": "(c) 2016 Olivier Giulieri",
+  "homepage": "https://github.com/evoluteur/oms-ui-react",
+  "author": "Olivier Giulieri (https://evoluteur.github.io/)",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:dev": "webpack-dev-server --inline --content-base public/ --history-api-fallback",
+    "start:prod": "webpack && node server.js"
+  },
+
+  "keywords": [
+    "model-driven",
+    "MDA",
+    "metadata",
+    "React.js",
+    "React",
+    "component",
+    "CRUD",
+    "UI",
+    "framework",
+    "low-code",
+    "javascript",
+    "forms"
+  ],
+
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "if-env": "^1.0.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "bootstrap-sass": "3.3.7",
+    "react-modal": "^1.5.2",
+    "react-datepicker": "^0.29.0",
+    "react-dropzone": "^3.6.0",
+    "moment": "^2.15.1",
+    "axios": "^0.15.2",
+    "underscore": "^1.8.3"
+  },
+  
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.8.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "http-server": "^0.9.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
